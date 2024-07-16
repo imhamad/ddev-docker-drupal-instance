@@ -1,0 +1,58 @@
+# Drupal core files
+/core
+/vendor
+/web/core
+/web/vendor
+/web/sites/*/settings.php
+/web/sites/*/services.yml
+/web/sites/*/settings.local.php
+/web/sites/simpletest
+
+# Drupal specific file directories
+/web/sites/*/files
+/sites/*/files
+
+# Ignore configuration sync directory
+/config/sync
+
+# Composer
+composer.lock
+
+# Docker
+.docker
+docker-compose.override.yml
+docker-compose.local.yml
+.env
+.ddev
+docker-compose.yml
+
+# Generated code
+*.log
+*.cache
+*.twi
+*.swp
+*.tgz
+*.gz
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Node.js dependencies
+node_modules
+
+# Miscellaneous
+.idea
+.vscode
+nbproject
+*.sublime-workspace
+
+# Ignore all files ending in a tilde (~)
+/*~
+
+# Ignore the files managed by Symfony/Encore (Webpack)
+/web/assets
+/web/css
+/web/js
+/web/build
